@@ -1,0 +1,26 @@
+{
+  "name": "get-gpg-keys-from-github-following",
+  "version": "1.0.0",
+  "description": "A simple program which will look through a users list of followed users and generate a gpg key file containing the public keys of all users who have added their gpg key to github.",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/morten-olsen/get-gpg-keys-from-github-following.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "ncc build src/index.js -o ./build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "get-gpg-keys-from-github-following": "build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@zeit/ncc": "^0.20.5",
+    "got": "^9.6.0",
+    "valvelet": "^1.1.1",
+    "yargs": "^14.2.0"
+  }
+}
