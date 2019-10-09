@@ -1,6 +1,6 @@
 {
   "name": "get-gpg-keys-from-github-following",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple program which will look through a users list of followed users and generate a gpg key file containing the public keys of all users who have added their gpg key to github.",
   "main": "index.js",
   "repository": {
